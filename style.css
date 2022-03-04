@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar
+{
+   background-color :rgba(0, 0, 0, 0.473);
+   opacity: 5;
+}
+#sm{
+    padding-top: 10px;
+}
+#nc{
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+}
+#nc:hover{
+   color:rgb(223, 134, 0);;
+}
+#menu{
+    border: 2px solid #fff;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    line-height: 30px;
+    color: #fff;
+}
+#menu:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.carousel-inner{
+    max-height: 44vmax;
+}
+.carousel-inner > .item > img {
+        margin: 0 auto;
+        padding-top: 50px;
+        object-fit: cover;
+        object-position: center;
+       }
+.navbar{
+        position:absolute;
+        width:100%;
+        z-index:10;
+        max-width:100%;
+  }
+.bg-image{
+    background-image: url('../cake/backgroud.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sv{
+    max-height: 30vmax;
+}
+video{
+    width:100%; 
+}
+.content1 > h1 {
+    text-decoration-line: underline;
+    font-size: 70px;
+    padding-top: 30px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+.p1{
+    padding-top: 10px;
+    font-family: 'Poppins', cursive;
+    text-align: center;
+    font-size: 20px;
+}
+#shop-img > img{
+    width: 35vw;
+}
+#shop-p1{
+    padding-top: 80px;
+}
+.content_grid1{
+    padding-top: 40px;
+}
+.subcontent_grid {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 14px;
+}
+.knowmore{
+    text-align: center;
+    padding-left: 70px;
+
+}
+.btn_knowmore{
+    border: 2px solid rgb(252, 103, 103);
+    background-color: rgba(255, 255, 255, 0.795);
+    border-radius: 20px;
+}
+.btn_knowmore:hover{
+    background-color: rgba(221, 81, 81, 0.514);
+    color: #000;
+}
+.ourproduct >h1{
+    text-decoration-line: underline;
+    font-size: 70px;
+    padding-top: 70px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+/*flip card*/
+.card-flip > div {
+  backface-visibility: hidden;
+  transition: transform 300ms;
+  transition-timing-function: linear;
+}
+
+.card-front {
+  transform: rotateY(0deg);
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  position: absolute;
+}
+
+.card-flip:hover .card-front {
+  transform: rotateY(-180deg);
+}
+  
+.card-flip:hover .card-back {
+  transform: rotateY(0deg);
+}
